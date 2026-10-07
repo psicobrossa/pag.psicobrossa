@@ -2021,12 +2021,14 @@
       Cal.ns["primera-entrevista"]("inline", {
         elementOrSelector:"#my-cal-inline-primera-entrevista",
         config: { layout: "month_view" },
-    calLink: "cristian-david-brossa-wom1b6/primera-entrevista"
+        calLink: "cristian-david-brossa-wom1b6/primera-entrevista"
       });
-    Cal.ns["primera-entrevista"]("ui", {
-  theme: "dark",
-  ...
-});
+      Cal.ns["primera-entrevista"]("ui", {
+        theme: "dark",
+        styles: { branding: { brandColor: "#e91e63" } },
+        hideEventTypeDetails: false,
+        layout: "month_view"
+      });
     </script>
 
 </body>
